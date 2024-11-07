@@ -1,0 +1,35 @@
+#guess_that_word_img {
+    background-image: url('/assets/images/guess_that_word.jpg');
+    background-size: cover;
+    height: 600px;
+    border-right: ridge 4px #17a2b8 ;
+    border-left: ridge 4px #17a2b8 ;
+}
+#letters{
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: .5rem;
+    margin-top: 230px;
+}
+
+#word_container{
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: .5rem;
+    margin-top: 50px;
+    width: fit-content;
+    border: ridge 4px;
+}
+#options{
+    border: ridge 4px #17a2b8 ;
+    border-bottom: none;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+
+}
+#gameFooter{
+    border: ridge 4px #17a2b8 ;
+    border-top: none;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}

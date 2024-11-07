@@ -43,7 +43,6 @@ function getRandomWord() {
         if (wordLengthInput > 0) {
             filteredWords = words.filter(word => word.trim().length === wordLengthInput);
         }
-        // const filteredWords = words.filter(word => word.length === wordLengthInput);
         let randomIndex = Math.floor(Math.random() * filteredWords.length);
         let word = filteredWords[randomIndex];
         filteredWords.splice(randomIndex, 1);
@@ -54,12 +53,6 @@ function getRandomWord() {
         console.error('Failed to fetch words from file');
         return null;
     }
-
-
-    // const randomIndex = Math.floor(Math.random() * wordsArray.length);
-    // let word = wordsArray[randomIndex];
-    // wordsArray.splice(randomIndex, 1);
-    // return word;
 }
 
 // make a guess

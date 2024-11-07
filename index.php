@@ -4,44 +4,7 @@
 <head>
     <title>Guess That Word Game</title>
     <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.css">
-
-    <style>
-        #guess_that_word_img {
-            background-image: url('/assets/images/guess_that_word.jpg');
-            background-size: cover;
-            height: 600px;
-            border-right: ridge 4px #17a2b8 ;
-            border-left: ridge 4px #17a2b8 ;
-        }
-        #letters{
-            background-color: #fff;
-            opacity: 0.9;
-            border-radius: .5rem;
-            margin-top: 230px;
-        }
-
-        #word_container{
-            background-color: #fff;
-            opacity: 0.9;
-            border-radius: .5rem;
-            margin-top: 50px;
-            width: fit-content;
-            border: ridge 4px;
-        }
-        #options{
-            border: ridge 4px #17a2b8 ;
-            border-bottom: none;
-            border-top-left-radius: .5rem;
-            border-top-right-radius: .5rem;
-
-        }
-        #gameFooter{
-            border: ridge 4px #17a2b8 ;
-            border-top: none;
-            border-bottom-left-radius: .5rem;
-            border-bottom-right-radius: .5rem;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
 <body class="container mx-auto mb-5">
     <div class="row mt-3 mb-0" id="">
@@ -115,10 +78,6 @@
             <h3 class="text-danger" id="message">Wrong guesses: 0/6</h3>
         </div>
     </div>
-
-    <script>
-        //const wordsArray = <?= json_encode($wordsArray) ?>;
-    </script>
 
     <script src="/assets/bootstrap/js/bootstrap.js"></script>
     <script src="/assets/js/main.js"></script>
